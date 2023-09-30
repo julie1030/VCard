@@ -1,0 +1,33 @@
+body {
+    background:rgb(15, 10, 10);
+    color:gold;
+}
+.recto, .verso {
+    border: 5px solid silver;
+    border-style: groove;
+    border-color: silver;
+    margin:20px;
+    width:480px;
+    height:320px;
+}
+
+.first {
+    display:flex;
+}
+
+.image-ju {
+    width: 180px;
+}
+
+.textju {
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+p {
+    margin: 0;
+}
+
+.second {
+    padding: 1rem;
+}
