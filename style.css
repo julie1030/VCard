@@ -1,5 +1,6 @@
 body {
     background-color: #f8c1b6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .card {
@@ -34,14 +35,12 @@ body {
     padding-top: 30px;
     text-align: center;
     font-size: 100px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .citation, .recto p:last-child {
     padding: 15px 50px 0 50px;
     font-size: 1.15rem;
     font-style: italic;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .recto p:last-child {
@@ -117,6 +116,11 @@ a {
 
     .first {
         flex-direction: column;
+    }
+
+
+    .recto p:last-child {
+        padding-bottom: 1rem;
     }
 
 }
