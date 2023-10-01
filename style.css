@@ -19,7 +19,7 @@ body {
 .recto, .verso {
     color: #e7556b;
     background: #ffeaaf;
-    box-shadow: 10px 10px 20px rgb(2, 2, 2);
+    box-shadow: 10px 10px 20px rgb(135, 93, 93);
     font-size: 18px;
     height: 320px;
 }
@@ -91,14 +91,32 @@ a {
     margin-bottom: .5rem;
 }
 
-.link img {
+.link img, .link i {
     width: 25px;
     margin-right: .75rem;
 }
 
 
 
-@media screen {
-    ;
+@media screen and (max-width:320px) {
+
+    .card {
+        width: auto;
+        height: auto;
+        margin: 1rem;
+    }
+
+    .verso, .recto, .card:hover .recto {
+        display: block;
+    }
+
+    .recto, .verso {
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .first {
+        flex-direction: column;
+    }
 
 }
