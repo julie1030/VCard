@@ -1,27 +1,74 @@
 body {
-    background:rgb(15, 10, 10);
-    color:gold;
+    background-color: #f8c1b6;
 }
+
+.card {
+    width: 480px;
+    height: 320px;
+    margin: 1rem;
+}
+
+.card:hover .verso {
+    display: block;
+}
+
+.card:hover .recto {
+    display: none;
+}
+
 .recto, .verso {
-    border: 5px solid silver;
-    border-style: groove;
-    border-color: silver;
-    margin:20px;
-    width:480px;
-    height:320px;
+    color: #e7556b;
+    background: #ffeaaf;
+    box-shadow: 10px 10px 20px rgb(2, 2, 2);
+    font-size: 18px;
+    height: 320px;
+}
+
+.verso {
+    display: none;
+}
+
+.initiales {
+    color: #b7ab61;
+    padding: 30px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.citation, .recto p:last-child {
+    padding: 15px 50px 0 50px;
+    font-size: 1.15rem;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.recto p:last-child {
+    margin-top: -5px;
 }
 
 .first {
-    display:flex;
+    display: flex;
 }
 
 .image-ju {
-    width: 180px;
+    width: 140px;
+    clip-path: circle(70px at center);
+    height: 140px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.image-ju img {
+    width: 140px;
 }
 
 .textju {
     flex-grow: 1;
-    padding: 1rem;
+    padding: 2.5rem;
+    padding-bottom: 0;
+    color: #e7556b;
 }
 
 p {
@@ -29,5 +76,29 @@ p {
 }
 
 .second {
-    padding: 1rem;
+    padding-left: 1rem;
+    color: #b7ab61;
+    padding: 1.8rem;
+}
+
+a {
+    color: #e7556b
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.link img {
+    width: 25px;
+    margin-right: .75rem;
+}
+
+
+
+@media screen {
+    ;
+
 }
