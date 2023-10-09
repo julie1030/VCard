@@ -1,5 +1,5 @@
 ### URL de la page web réalisée :
-https://julie1030.github.io/myVCard
+https://julie1030.github.io/VCard/
 
 ###Carte de visite virtuelle
 Exercice consistant à créer une carte de visite VCARD 
